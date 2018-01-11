@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Reddit
 //
-//  Created by vragireddy on 1/10/18.
+//  Created by Vikram on 1/10/18.
 //  Copyright © 2018 prokarma. All rights reserved.
 //
 

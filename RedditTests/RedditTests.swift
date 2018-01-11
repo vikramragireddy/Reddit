@@ -2,7 +2,7 @@
 //  RedditTests.swift
 //  RedditTests
 //
-//  Created by vragireddy on 1/10/18.
+//  Created by Vikram on 1/10/18.
 //  Copyright © 2018 prokarma. All rights reserved.
 //
 
@@ -21,16 +21,31 @@ class RedditTests: XCTestCase {
         super.tearDown()
     }
     
-    func testExample() {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
+    func testCardModel() {
+        let card = Card(titleText: "Title", commentNumber: "12345", score: "88", imageURL: "http://www.apple.com/images/abc")
+        
+        XCTAssertNotNil(card.titleText , "title can't be nil")
+        XCTAssertNotNil(card.commentNumber , "title can't be nil")
+        XCTAssertNotNil(card.score , "title can't be nil")
+        XCTAssertNotNil(card.imageURL , "title can't be nil")
+        
+        XCTAssert(card.titleText == "Title", "title is wrongly mapped")
+        XCTAssert(card.commentNumber == "12345", "comment number is wrongly mapped")
+        XCTAssert(card.score == "88", "score is wrongly mapped")
+        XCTAssert(card.imageURL == "http://www.apple.com/images/abc")
     }
     
-    func testPerformanceExample() {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
-        }
+    func testCardsModel() {
+        let card1 = Card(titleText: "Title", commentNumber: "12345", score: "88", imageURL: "http://www.apple.com/images/abcd")
+        let card2 = Card(titleText: "Title1", commentNumber: "12345", score: "88", imageURL: "http://www.apple.com/images/abce")
+        let card3 = Card(titleText: "Title2", commentNumber: "12345", score: "88", imageURL: "http://www.apple.com/images/abcf")
+        let card4 = Card(titleText: "Title3", commentNumber: "12345", score: "88", imageURL: "http://www.apple.com/images/abcg")
+        let card5 = Card(titleText: "Title4", commentNumber: "12345", score: "88", imageURL: "http://www.apple.com/images/abcgh")
+        
+        let cards = [card1,card2,card3,card4,card5]
+        let cardsModel = Cards(urlLink: "http://www.apple.com/nextList", cards: cards)
+        XCTAssert(cardsModel.urlLink == "http://www.apple.com/nextList", "Link is wrongly mapped")
+        XCTAssert(cardsModel.cards?.count == 5, "No of cards not matching")
     }
     
 }

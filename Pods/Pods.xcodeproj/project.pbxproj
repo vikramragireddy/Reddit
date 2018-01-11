@@ -1,0 +1,1236 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		052B15FB5BFAF3D90EC118F146C4A2DD /* SDWebImageCoderHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = C438B24E7DD69F583FA269786D7AB142 /* SDWebImageCoderHelper.m */; };
+		06BC4C76B064C65421B324F92EB492C9 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C7D4AE9B0003DB1C71D93597A119B565 /* SwiftyJSON-dummy.m */; };
+		070474356462B5D62F137EA24A908141 /* SDWebImageDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E40F8718F5BE2CCE05F9DE231DC120D /* SDWebImageDownloader.m */; };
+		088EF3D33C17D43111AD54565356403A /* SDWebImageCompat.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8B8F7807353AE2D112AFC41531D3C6 /* SDWebImageCompat.m */; };
+		08E1ED3E1015E6DB40735E3E5F748C1A /* SDWebImageFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D0D0BFC943FBBAFD54E7803E2A958ED /* SDWebImageFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		18A80738E98CC34DA57EB0422F0180E0 /* SDWebImage-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 33EE019C6131B3C5733D737786892952 /* SDWebImage-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2B4017FF06CCD704BB1FC60C896156D3 /* SDImageCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D4A243B2EBEDBC9D461F24F8F1F818A1 /* SDImageCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2D93CE702E91068D723D02CFA927E523 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		33CC5B8728CD9952459FF9CF472A961C /* SDWebImageManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 1959DE86423F709E2FE5F43E216E9DC2 /* SDWebImageManager.m */; };
+		379BBF824D76CF5DE81FAD0D3EFADB23 /* SDWebImageDownloader.h in Headers */ = {isa = PBXBuildFile; fileRef = F68ACFEB0AB9F1C90CFBC7FD5F5283DE /* SDWebImageDownloader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		385B783A241FF6ACC7B93D2908345B58 /* NSImage+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 46FAAFAA4218E6D4F07F749BB4C552A4 /* NSImage+WebCache.m */; };
+		393290C8B84A194162641B64F8CC7202 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 635A4BD1CEF7E623C71F97A54BFC3616 /* ImageIO.framework */; };
+		3DCCB8758C364B7D70C8B42555C17BEF /* UIImage+MultiFormat.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D53A09F695BFCF992439504FAD8543C /* UIImage+MultiFormat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4302B1A806EC44200697716C7F9EB497 /* SDWebImageOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = FC5CBCF4316522341143C402F4264F3A /* SDWebImageOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4588E803391C0D0215E72F3E724F3F78 /* UIImageView+HighlightedWebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BB1FBB6C38894191F46102A41CC5A1F /* UIImageView+HighlightedWebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		46695E52C0C89E057D54B1FBFF873F02 /* SDWebImageGIFCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B5E31222A92B9BAB5A78D4CE2FC382C /* SDWebImageGIFCoder.m */; };
+		489C5C0951A49FBC3EBF2989EA399971 /* SDWebImageDownloaderOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2716E37039595D6453F2D62467B39F1D /* SDWebImageDownloaderOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		536B6B06D1C74C21BEDE73EEF715687B /* UIImage+GIF.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EF702B6A6788ED36396ECCC69AD765 /* UIImage+GIF.m */; };
+		5A19E8D857830399D59FA3FC166B57B8 /* UIImage+ForceDecode.h in Headers */ = {isa = PBXBuildFile; fileRef = 8AAB368D8ACA02410D97C36F03EEEBA5 /* UIImage+ForceDecode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5E1D79DA5AAFCE859A3ED14EC0CD9472 /* SDImageCacheConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = FB4E580CE3FEED6258EB676DD0235104 /* SDImageCacheConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		614A331E9E436AAF671E7183DBC24AA2 /* SDWebImagePrefetcher.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DB03E8BF6B652DBCCFC5A8191299615 /* SDWebImagePrefetcher.m */; };
+		64910B6B0D1C67227CCEB6D9043F8146 /* NSImage+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 830B1498AC1368B42915C9303062ECE1 /* NSImage+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6663F2632085624DEAED755AFE409FB7 /* UIImageView+HighlightedWebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 40180C69247568570B6F268556055401 /* UIImageView+HighlightedWebCache.m */; };
+		6B89B836CBCD03ACE8B9ACDB5C78BF49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		6BA2FEB860EBE929064C7A8ABB00724F /* SDWebImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 0BB8A9D678B89E18580D3CC6609F36AB /* SDWebImageCoder.m */; };
+		6BCCF970C54EFF789453C91DC7C3B1D3 /* SDWebImagePrefetcher.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E4D24108C9F9C74396D3F0F1B876BB2 /* SDWebImagePrefetcher.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E214D0A2F8AAABD23B4E1EC36B291A1 /* Pods-Reddit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 590DF1EAE527106E0AF7D652FAE8AC24 /* Pods-Reddit-dummy.m */; };
+		6ECB1E459593F8F6AD5BF25D6B949B9C /* Pods-RedditUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 188EBD9CA26DD26D472F56DB90828BCA /* Pods-RedditUITests-dummy.m */; };
+		73EBC6E4BC745BC93429967214CFC92B /* UIButton+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 94B44B6DBC2AFF1CE4EB8BB58E09CD7F /* UIButton+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7449965EB0117E1B7044DA9D95129F1B /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DED4961D1449A5A7F5F5BF7940CB0D2 /* SwiftyJSON.swift */; };
+		75489E3D7ED3733EF3691866445ABE54 /* SDWebImageFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = AA939226649534F56A09D908216A32E7 /* SDWebImageFrame.m */; };
+		75834C5140222F7AD6E56E3F0157CC54 /* SDWebImageCompat.h in Headers */ = {isa = PBXBuildFile; fileRef = D67A0E2B669C0BA70428FB1FA58477D6 /* SDWebImageCompat.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E96A8F1C9E7FED299D5802421A3F19B /* NSData+ImageContentType.h in Headers */ = {isa = PBXBuildFile; fileRef = 030D0A2E9767F3221CF3BB467F20CDCF /* NSData+ImageContentType.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83CA2502310C4C863192EEBF246CD7B0 /* UIImage+MultiFormat.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6E6DEBCB950E4631B27398F8893852 /* UIImage+MultiFormat.m */; };
+		84D1E6B2655F2C03AFA6597AD2A369BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		8FA801BE318336899B3410C2023CB96F /* UIImage+ForceDecode.m in Sources */ = {isa = PBXBuildFile; fileRef = AC02688B9E73382CFA1F6666934ED47D /* UIImage+ForceDecode.m */; };
+		906D09354A6950C460CB832BF0C1D4EE /* UIImageView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = C58FCF165A7C548DF6BFE3BC31B7397C /* UIImageView+WebCache.m */; };
+		908FDF89B463AB744C093A39BABDEBAD /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = E95965ED1D3F3916DDDEC5F19D76C120 /* NSData+ImageContentType.m */; };
+		927E6D75DD74F4C2EF687425C42E030A /* UIView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AF8B1359DF9D8043B249280CD580B55 /* UIView+WebCache.m */; };
+		9A9C897EE0C5A972E89E23084E9076AB /* Pods-Reddit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DEFBAA5FD698A5435C066C4D70C6B445 /* Pods-Reddit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9BA5FB50FF4F387857076712CCD3EDE3 /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73300947B256EE6F72FB33B43BD1CDEF /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E0874521D1624AF6ECA77D2205A3D89 /* UIButton+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF9ECB98E9D7BBE8328A3B57BF2F488 /* UIButton+WebCache.m */; };
+		A981AB55A20662B4F0F0CD3613BE7849 /* UIImage+GIF.h in Headers */ = {isa = PBXBuildFile; fileRef = 494E72A97BA3B70228254CAE498F362F /* UIImage+GIF.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB606534D955B43469F499E83968A482 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		AE22347AC072CD53A7A2FD1AFFD47022 /* UIImageView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = C4FEB3814F9E87A29E1EBB359FC225D0 /* UIImageView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B53FACDA63A6E5EB05A17BDFF09EDC74 /* SDImageCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B98EE910F928E8CF4F77AB420042575 /* SDImageCache.m */; };
+		B675FEF19D3D05993BF13C5F24CA82C4 /* SDWebImageImageIOCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = CA3154527136735F086F0FE7A553C394 /* SDWebImageImageIOCoder.m */; };
+		C61455D897EC807FDDE23ECEE52659CB /* Pods-RedditUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 001CB7A80BF8B18B4385EFAFC1FFC49E /* Pods-RedditUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C71A4F09A1E7677D8EB828348A0A4C3D /* SDWebImageImageIOCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = F5DE37C2A3F8EB1A37D909CD16CB8D55 /* SDWebImageImageIOCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CDCF8BA00EB1B8E39A55CBF324DBD97F /* SDWebImage-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F65EAE3D82D469E2A1096B52F72A8FE9 /* SDWebImage-dummy.m */; };
+		CDE768A8C63BD740A1710C1E84E02A68 /* Pods-RedditTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B37285C7FE8DC7370BD753574E1061E2 /* Pods-RedditTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D28F73244E836289BE8597448D9AA507 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */; };
+		D6D3D5E6ACC54EAD58DB7E23965AE268 /* SDWebImageManager.h in Headers */ = {isa = PBXBuildFile; fileRef = F894E446EFE6609D0334CFB9FD65127A /* SDWebImageManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D71E62A99DE3AE8E70B6D86DE44751AB /* UIView+WebCacheOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = CFA51EA58788DFD1FDF466BE345A079F /* UIView+WebCacheOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DD7CF3668A810110059B07E5FD968184 /* SDWebImageCodersManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2474F2491264E5C75E11E03D3DA717D5 /* SDWebImageCodersManager.m */; };
+		E25A95C58DC5379C79ADBE6620CC1B51 /* SDWebImageCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 8851F593AF07A933B8B3D67D59F15867 /* SDWebImageCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2C703FCB1E7FBA757B349F1D1C60E56 /* SDImageCacheConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = A5DB368FCF4F2D59C5CD31B7FA5CEC41 /* SDImageCacheConfig.m */; };
+		F2EB04E3D7E17024DE471837DCFA70A4 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = E6E6B653FD120DAA2FE20A46C228D85F /* UIView+WebCacheOperation.m */; };
+		F59E0E3D1B0DCBA6DD4E34D3076AF0F8 /* UIView+WebCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 04EA491BC2A35496CE5836AB6820557D /* UIView+WebCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6ED49212E9BE3A8E870CBD8B0CF90BA /* SDWebImageCodersManager.h in Headers */ = {isa = PBXBuildFile; fileRef = CA5694BC925A8C565FB5B42605C36E7C /* SDWebImageCodersManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F79F414F7120AB413FF0A3606D6424DF /* SDWebImageDownloaderOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2CE0B2BD1CD0E400284F0AF18C3467 /* SDWebImageDownloaderOperation.m */; };
+		F84ECA8EF002FD82FFD3C72A6C7EC7A2 /* SDWebImageGIFCoder.h in Headers */ = {isa = PBXBuildFile; fileRef = 91770AD2A7BF449871DEA681B8F4F6A7 /* SDWebImageGIFCoder.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA374BEB7F37A33C241B46440922B546 /* SDWebImageCoderHelper.h in Headers */ = {isa = PBXBuildFile; fileRef = 807E6BCF9576E9F47CBBA55A517A5302 /* SDWebImageCoderHelper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFD8DA21E598CEEA911AE163FAF0D3A6 /* Pods-RedditTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 27F9B0B2701A1D93BCA1D9DE45982C44 /* Pods-RedditTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		78ABE76CBE2BDA0E4E5C6119C0E44CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 119BEE602EB52FDADCCD0D415B44EB3D;
+			remoteInfo = SwiftyJSON;
+		};
+		9290919F2BA2E38B5E1300D9B88F239E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0303202173EFA74E23DBF826E7DAD78D;
+			remoteInfo = SDWebImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0009FE6F113345536A1EB86649B729E3 /* Pods-Reddit-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Reddit-resources.sh"; sourceTree = "<group>"; };
+		001CB7A80BF8B18B4385EFAFC1FFC49E /* Pods-RedditUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedditUITests-umbrella.h"; sourceTree = "<group>"; };
+		02833188C8D390E54E36A7C2C755A86F /* Pods_RedditTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedditTests.framework; path = "Pods-RedditTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		030D0A2E9767F3221CF3BB467F20CDCF /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
+		04A9769354B5BF0CA68B46996F469CA5 /* Pods-RedditUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedditUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		04EA491BC2A35496CE5836AB6820557D /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
+		069E1B3C49A9AA8036B6A3781B3B2FF8 /* Pods-RedditUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedditUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		07E99F3742ADEEEE9EE8B51EFA510BAB /* Pods-RedditUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedditUITests.modulemap"; sourceTree = "<group>"; };
+		0BB8A9D678B89E18580D3CC6609F36AB /* SDWebImageCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoder.m; path = SDWebImage/SDWebImageCoder.m; sourceTree = "<group>"; };
+		135C75D0DAB28EADF47B14D8F77CB82B /* Pods-RedditUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedditUITests-frameworks.sh"; sourceTree = "<group>"; };
+		14914E4751EB5FD663EE10F10BA37D0F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188EBD9CA26DD26D472F56DB90828BCA /* Pods-RedditUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedditUITests-dummy.m"; sourceTree = "<group>"; };
+		1959DE86423F709E2FE5F43E216E9DC2 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
+		1A319C79C2EDBE8322C95EB0EB13092A /* Pods-RedditTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedditTests-resources.sh"; sourceTree = "<group>"; };
+		2474F2491264E5C75E11E03D3DA717D5 /* SDWebImageCodersManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCodersManager.m; path = SDWebImage/SDWebImageCodersManager.m; sourceTree = "<group>"; };
+		26226411403781E655A975E34716BC24 /* Pods_Reddit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Reddit.framework; path = "Pods-Reddit.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		26954044DC5F00F7AD7D058C24C70F9F /* SDWebImage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SDWebImage.framework; path = SDWebImage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2716E37039595D6453F2D62467B39F1D /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
+		27F9B0B2701A1D93BCA1D9DE45982C44 /* Pods-RedditTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RedditTests-dummy.m"; sourceTree = "<group>"; };
+		2A4473040095870F7F0003D6A228F446 /* Pods-Reddit-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Reddit-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2C68C77B1BE7B85429BAEB61B564C30A /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
+		33EE019C6131B3C5733D737786892952 /* SDWebImage-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-umbrella.h"; sourceTree = "<group>"; };
+		40180C69247568570B6F268556055401 /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		436EF9058C92B7D3FCF1C381BF5E7D38 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46FAAFAA4218E6D4F07F749BB4C552A4 /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
+		494E72A97BA3B70228254CAE498F362F /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
+		4A6E6DEBCB950E4631B27398F8893852 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
+		4C065624D50BFC8F86B0248462A230C9 /* Pods-RedditTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedditTests.release.xcconfig"; sourceTree = "<group>"; };
+		4D53A09F695BFCF992439504FAD8543C /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
+		590DF1EAE527106E0AF7D652FAE8AC24 /* Pods-Reddit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Reddit-dummy.m"; sourceTree = "<group>"; };
+		5C9C956B9E73351D611F314E1281D0A3 /* Pods-RedditTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-RedditTests.modulemap"; sourceTree = "<group>"; };
+		5D449CE4AB8F5B7EFE81B36536184E11 /* SDWebImage-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SDWebImage-prefix.pch"; sourceTree = "<group>"; };
+		5D8FABAAD4062A8E12C30FB10CCDA11C /* Pods-RedditTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedditTests.debug.xcconfig"; sourceTree = "<group>"; };
+		60A35E604BC17121A4A7CD3F1C4C484E /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		635A4BD1CEF7E623C71F97A54BFC3616 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		637FA859F4F34CD8F5AD913C399EB976 /* Pods_RedditUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_RedditUITests.framework; path = "Pods-RedditUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C8595E9103C04795EB654A5082D13D5 /* Pods-Reddit-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Reddit-acknowledgements.plist"; sourceTree = "<group>"; };
+		6C8B8F7807353AE2D112AFC41531D3C6 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
+		6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6D0D0BFC943FBBAFD54E7803E2A958ED /* SDWebImageFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageFrame.h; path = SDWebImage/SDWebImageFrame.h; sourceTree = "<group>"; };
+		6DB03E8BF6B652DBCCFC5A8191299615 /* SDWebImagePrefetcher.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImagePrefetcher.m; path = SDWebImage/SDWebImagePrefetcher.m; sourceTree = "<group>"; };
+		70EBCB2EF9B7A320BEB81725C8B36486 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftyJSON.framework; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7165E69C850C09A5A9CC4C05086ED0AC /* Pods-RedditUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedditUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		71F58D6DE154B47A157C4BD9C100CF9F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73300947B256EE6F72FB33B43BD1CDEF /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		77B2120B24F882F0C999B46C87B46701 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77EF702B6A6788ED36396ECCC69AD765 /* UIImage+GIF.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+GIF.m"; path = "SDWebImage/UIImage+GIF.m"; sourceTree = "<group>"; };
+		7B5E31222A92B9BAB5A78D4CE2FC382C /* SDWebImageGIFCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageGIFCoder.m; path = SDWebImage/SDWebImageGIFCoder.m; sourceTree = "<group>"; };
+		7B98EE910F928E8CF4F77AB420042575 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
+		7BB1FBB6C38894191F46102A41CC5A1F /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
+		7BF9ECB98E9D7BBE8328A3B57BF2F488 /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
+		7D9A300EB265407A90A7B1847C71E562 /* Pods-Reddit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reddit.debug.xcconfig"; sourceTree = "<group>"; };
+		807E6BCF9576E9F47CBBA55A517A5302 /* SDWebImageCoderHelper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoderHelper.h; path = SDWebImage/SDWebImageCoderHelper.h; sourceTree = "<group>"; };
+		822A32539A7A7226DFABE4D2C70FCA70 /* Pods-RedditTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedditTests-frameworks.sh"; sourceTree = "<group>"; };
+		830B1498AC1368B42915C9303062ECE1 /* NSImage+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+WebCache.h"; path = "SDWebImage/NSImage+WebCache.h"; sourceTree = "<group>"; };
+		83F8B8645B29A09BF25FFB38C0ABD808 /* Pods-Reddit-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Reddit-frameworks.sh"; sourceTree = "<group>"; };
+		8851F593AF07A933B8B3D67D59F15867 /* SDWebImageCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCoder.h; path = SDWebImage/SDWebImageCoder.h; sourceTree = "<group>"; };
+		8AAB368D8ACA02410D97C36F03EEEBA5 /* UIImage+ForceDecode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+ForceDecode.h"; path = "SDWebImage/UIImage+ForceDecode.h"; sourceTree = "<group>"; };
+		8D2CE0B2BD1CD0E400284F0AF18C3467 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
+		8DED4961D1449A5A7F5F5BF7940CB0D2 /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		8E4D24108C9F9C74396D3F0F1B876BB2 /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		91770AD2A7BF449871DEA681B8F4F6A7 /* SDWebImageGIFCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageGIFCoder.h; path = SDWebImage/SDWebImageGIFCoder.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94B44B6DBC2AFF1CE4EB8BB58E09CD7F /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
+		9A8402ABF087EABAC202570B9F9ED2BF /* Pods-RedditUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RedditUITests-resources.sh"; sourceTree = "<group>"; };
+		9AF8B1359DF9D8043B249280CD580B55 /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
+		9E40F8718F5BE2CCE05F9DE231DC120D /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
+		A5DB368FCF4F2D59C5CD31B7FA5CEC41 /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
+		A68F1413DECADB20312DD56F1F717DF0 /* Pods-RedditTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RedditTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		AA939226649534F56A09D908216A32E7 /* SDWebImageFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageFrame.m; path = SDWebImage/SDWebImageFrame.m; sourceTree = "<group>"; };
+		AC02688B9E73382CFA1F6666934ED47D /* UIImage+ForceDecode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+ForceDecode.m"; path = "SDWebImage/UIImage+ForceDecode.m"; sourceTree = "<group>"; };
+		B37285C7FE8DC7370BD753574E1061E2 /* Pods-RedditTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RedditTests-umbrella.h"; sourceTree = "<group>"; };
+		BF73D956F587443F8450F44BD2AF30AA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C34E311DE5400DA942F6BE4151BE83AE /* Pods-RedditTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RedditTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		C438B24E7DD69F583FA269786D7AB142 /* SDWebImageCoderHelper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCoderHelper.m; path = SDWebImage/SDWebImageCoderHelper.m; sourceTree = "<group>"; };
+		C4FEB3814F9E87A29E1EBB359FC225D0 /* UIImageView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+WebCache.h"; path = "SDWebImage/UIImageView+WebCache.h"; sourceTree = "<group>"; };
+		C58FCF165A7C548DF6BFE3BC31B7397C /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
+		C7D4AE9B0003DB1C71D93597A119B565 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		CA3154527136735F086F0FE7A553C394 /* SDWebImageImageIOCoder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageImageIOCoder.m; path = SDWebImage/SDWebImageImageIOCoder.m; sourceTree = "<group>"; };
+		CA5694BC925A8C565FB5B42605C36E7C /* SDWebImageCodersManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCodersManager.h; path = SDWebImage/SDWebImageCodersManager.h; sourceTree = "<group>"; };
+		CFA51EA58788DFD1FDF466BE345A079F /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
+		D329AB35CEB53B9AD5AB6748147A19C4 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		D4A243B2EBEDBC9D461F24F8F1F818A1 /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
+		D67A0E2B669C0BA70428FB1FA58477D6 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
+		DDB31B7136FA6A48C2B04036DB5392F6 /* SDWebImage.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SDWebImage.modulemap; sourceTree = "<group>"; };
+		DEFBAA5FD698A5435C066C4D70C6B445 /* Pods-Reddit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Reddit-umbrella.h"; sourceTree = "<group>"; };
+		E3CE2CBFC7DDC86C4BF8903905C95C60 /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		E6E6B653FD120DAA2FE20A46C228D85F /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
+		E71096B861E3C741A034721B92D199F3 /* Pods-Reddit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-Reddit.modulemap"; sourceTree = "<group>"; };
+		E95965ED1D3F3916DDDEC5F19D76C120 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		F1586CD001293E1AA095425BC0C1732F /* Pods-RedditUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RedditUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F5DE37C2A3F8EB1A37D909CD16CB8D55 /* SDWebImageImageIOCoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageImageIOCoder.h; path = SDWebImage/SDWebImageImageIOCoder.h; sourceTree = "<group>"; };
+		F65EAE3D82D469E2A1096B52F72A8FE9 /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
+		F68ACFEB0AB9F1C90CFBC7FD5F5283DE /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
+		F894E446EFE6609D0334CFB9FD65127A /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
+		FB4E580CE3FEED6258EB676DD0235104 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
+		FC5CBCF4316522341143C402F4264F3A /* SDWebImageOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageOperation.h; path = SDWebImage/SDWebImageOperation.h; sourceTree = "<group>"; };
+		FD3722FEAC462683D8F169C2E0742FAD /* Pods-Reddit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Reddit.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0599C7FAED43039F49996A0B13B0ECFD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D1E6B2655F2C03AFA6597AD2A369BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		474E68A93F51DD868F56A2A2AACBBD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B89B836CBCD03ACE8B9ACDB5C78BF49 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8A83F7D9C4FC836793EE02D93BBC8DB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D28F73244E836289BE8597448D9AA507 /* Foundation.framework in Frameworks */,
+				393290C8B84A194162641B64F8CC7202 /* ImageIO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D751AE2255B6B6026ECBD3B7B8436448 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D93CE702E91068D723D02CFA927E523 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D929CFC866C6D98D085951335B91920C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB606534D955B43469F499E83968A482 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FADA36CBBEBF5DF6696194D87183478 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6CE29CF4FF5C02028C0A06EC0D2A6120 /* Foundation.framework */,
+				635A4BD1CEF7E623C71F97A54BFC3616 /* ImageIO.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2E29187DDC177A175B9CA59BBF804A89 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AC022B50B99A5EF5FFAA1FB548BDC719 /* Pods-Reddit */,
+				BE2080D43081DDD259B8935045364853 /* Pods-RedditTests */,
+				9293CF62D9335531AFD4F73D99A2B0CB /* Pods-RedditUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1FADA36CBBEBF5DF6696194D87183478 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D174E175B4E9FBD7C2D482C8D7E9A32 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14914E4751EB5FD663EE10F10BA37D0F /* Info.plist */,
+				DDB31B7136FA6A48C2B04036DB5392F6 /* SDWebImage.modulemap */,
+				2C68C77B1BE7B85429BAEB61B564C30A /* SDWebImage.xcconfig */,
+				F65EAE3D82D469E2A1096B52F72A8FE9 /* SDWebImage-dummy.m */,
+				5D449CE4AB8F5B7EFE81B36536184E11 /* SDWebImage-prefix.pch */,
+				33EE019C6131B3C5733D737786892952 /* SDWebImage-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SDWebImage";
+			sourceTree = "<group>";
+		};
+		5E995B3E4589B49E385744AE205BA23E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89EBAC9DBA3CC0522BF6959F82ABF2E4 /* SDWebImage */,
+				6888CD6ED76690FD4FA7203FEA6E5D38 /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6888CD6ED76690FD4FA7203FEA6E5D38 /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				8DED4961D1449A5A7F5F5BF7940CB0D2 /* SwiftyJSON.swift */,
+				9ED74EA940936E5971FC2F4DF4EAE9E9 /* Support Files */,
+			);
+			name = SwiftyJSON;
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				5E995B3E4589B49E385744AE205BA23E /* Pods */,
+				FB3E988AE2C3C143A5A186B3B8B77DA6 /* Products */,
+				2E29187DDC177A175B9CA59BBF804A89 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		89EBAC9DBA3CC0522BF6959F82ABF2E4 /* SDWebImage */ = {
+			isa = PBXGroup;
+			children = (
+				AF7B229EB8C47C161099122BBA2D9C68 /* Core */,
+				4D174E175B4E9FBD7C2D482C8D7E9A32 /* Support Files */,
+			);
+			name = SDWebImage;
+			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		9293CF62D9335531AFD4F73D99A2B0CB /* Pods-RedditUITests */ = {
+			isa = PBXGroup;
+			children = (
+				77B2120B24F882F0C999B46C87B46701 /* Info.plist */,
+				07E99F3742ADEEEE9EE8B51EFA510BAB /* Pods-RedditUITests.modulemap */,
+				04A9769354B5BF0CA68B46996F469CA5 /* Pods-RedditUITests-acknowledgements.markdown */,
+				7165E69C850C09A5A9CC4C05086ED0AC /* Pods-RedditUITests-acknowledgements.plist */,
+				188EBD9CA26DD26D472F56DB90828BCA /* Pods-RedditUITests-dummy.m */,
+				135C75D0DAB28EADF47B14D8F77CB82B /* Pods-RedditUITests-frameworks.sh */,
+				9A8402ABF087EABAC202570B9F9ED2BF /* Pods-RedditUITests-resources.sh */,
+				001CB7A80BF8B18B4385EFAFC1FFC49E /* Pods-RedditUITests-umbrella.h */,
+				069E1B3C49A9AA8036B6A3781B3B2FF8 /* Pods-RedditUITests.debug.xcconfig */,
+				F1586CD001293E1AA095425BC0C1732F /* Pods-RedditUITests.release.xcconfig */,
+			);
+			name = "Pods-RedditUITests";
+			path = "Target Support Files/Pods-RedditUITests";
+			sourceTree = "<group>";
+		};
+		9ED74EA940936E5971FC2F4DF4EAE9E9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				436EF9058C92B7D3FCF1C381BF5E7D38 /* Info.plist */,
+				D329AB35CEB53B9AD5AB6748147A19C4 /* SwiftyJSON.modulemap */,
+				60A35E604BC17121A4A7CD3F1C4C484E /* SwiftyJSON.xcconfig */,
+				C7D4AE9B0003DB1C71D93597A119B565 /* SwiftyJSON-dummy.m */,
+				E3CE2CBFC7DDC86C4BF8903905C95C60 /* SwiftyJSON-prefix.pch */,
+				73300947B256EE6F72FB33B43BD1CDEF /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		AC022B50B99A5EF5FFAA1FB548BDC719 /* Pods-Reddit */ = {
+			isa = PBXGroup;
+			children = (
+				BF73D956F587443F8450F44BD2AF30AA /* Info.plist */,
+				E71096B861E3C741A034721B92D199F3 /* Pods-Reddit.modulemap */,
+				2A4473040095870F7F0003D6A228F446 /* Pods-Reddit-acknowledgements.markdown */,
+				6C8595E9103C04795EB654A5082D13D5 /* Pods-Reddit-acknowledgements.plist */,
+				590DF1EAE527106E0AF7D652FAE8AC24 /* Pods-Reddit-dummy.m */,
+				83F8B8645B29A09BF25FFB38C0ABD808 /* Pods-Reddit-frameworks.sh */,
+				0009FE6F113345536A1EB86649B729E3 /* Pods-Reddit-resources.sh */,
+				DEFBAA5FD698A5435C066C4D70C6B445 /* Pods-Reddit-umbrella.h */,
+				7D9A300EB265407A90A7B1847C71E562 /* Pods-Reddit.debug.xcconfig */,
+				FD3722FEAC462683D8F169C2E0742FAD /* Pods-Reddit.release.xcconfig */,
+			);
+			name = "Pods-Reddit";
+			path = "Target Support Files/Pods-Reddit";
+			sourceTree = "<group>";
+		};
+		AF7B229EB8C47C161099122BBA2D9C68 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				030D0A2E9767F3221CF3BB467F20CDCF /* NSData+ImageContentType.h */,
+				E95965ED1D3F3916DDDEC5F19D76C120 /* NSData+ImageContentType.m */,
+				830B1498AC1368B42915C9303062ECE1 /* NSImage+WebCache.h */,
+				46FAAFAA4218E6D4F07F749BB4C552A4 /* NSImage+WebCache.m */,
+				D4A243B2EBEDBC9D461F24F8F1F818A1 /* SDImageCache.h */,
+				7B98EE910F928E8CF4F77AB420042575 /* SDImageCache.m */,
+				FB4E580CE3FEED6258EB676DD0235104 /* SDImageCacheConfig.h */,
+				A5DB368FCF4F2D59C5CD31B7FA5CEC41 /* SDImageCacheConfig.m */,
+				8851F593AF07A933B8B3D67D59F15867 /* SDWebImageCoder.h */,
+				0BB8A9D678B89E18580D3CC6609F36AB /* SDWebImageCoder.m */,
+				807E6BCF9576E9F47CBBA55A517A5302 /* SDWebImageCoderHelper.h */,
+				C438B24E7DD69F583FA269786D7AB142 /* SDWebImageCoderHelper.m */,
+				CA5694BC925A8C565FB5B42605C36E7C /* SDWebImageCodersManager.h */,
+				2474F2491264E5C75E11E03D3DA717D5 /* SDWebImageCodersManager.m */,
+				D67A0E2B669C0BA70428FB1FA58477D6 /* SDWebImageCompat.h */,
+				6C8B8F7807353AE2D112AFC41531D3C6 /* SDWebImageCompat.m */,
+				F68ACFEB0AB9F1C90CFBC7FD5F5283DE /* SDWebImageDownloader.h */,
+				9E40F8718F5BE2CCE05F9DE231DC120D /* SDWebImageDownloader.m */,
+				2716E37039595D6453F2D62467B39F1D /* SDWebImageDownloaderOperation.h */,
+				8D2CE0B2BD1CD0E400284F0AF18C3467 /* SDWebImageDownloaderOperation.m */,
+				6D0D0BFC943FBBAFD54E7803E2A958ED /* SDWebImageFrame.h */,
+				AA939226649534F56A09D908216A32E7 /* SDWebImageFrame.m */,
+				91770AD2A7BF449871DEA681B8F4F6A7 /* SDWebImageGIFCoder.h */,
+				7B5E31222A92B9BAB5A78D4CE2FC382C /* SDWebImageGIFCoder.m */,
+				F5DE37C2A3F8EB1A37D909CD16CB8D55 /* SDWebImageImageIOCoder.h */,
+				CA3154527136735F086F0FE7A553C394 /* SDWebImageImageIOCoder.m */,
+				F894E446EFE6609D0334CFB9FD65127A /* SDWebImageManager.h */,
+				1959DE86423F709E2FE5F43E216E9DC2 /* SDWebImageManager.m */,
+				FC5CBCF4316522341143C402F4264F3A /* SDWebImageOperation.h */,
+				8E4D24108C9F9C74396D3F0F1B876BB2 /* SDWebImagePrefetcher.h */,
+				6DB03E8BF6B652DBCCFC5A8191299615 /* SDWebImagePrefetcher.m */,
+				94B44B6DBC2AFF1CE4EB8BB58E09CD7F /* UIButton+WebCache.h */,
+				7BF9ECB98E9D7BBE8328A3B57BF2F488 /* UIButton+WebCache.m */,
+				8AAB368D8ACA02410D97C36F03EEEBA5 /* UIImage+ForceDecode.h */,
+				AC02688B9E73382CFA1F6666934ED47D /* UIImage+ForceDecode.m */,
+				494E72A97BA3B70228254CAE498F362F /* UIImage+GIF.h */,
+				77EF702B6A6788ED36396ECCC69AD765 /* UIImage+GIF.m */,
+				4D53A09F695BFCF992439504FAD8543C /* UIImage+MultiFormat.h */,
+				4A6E6DEBCB950E4631B27398F8893852 /* UIImage+MultiFormat.m */,
+				7BB1FBB6C38894191F46102A41CC5A1F /* UIImageView+HighlightedWebCache.h */,
+				40180C69247568570B6F268556055401 /* UIImageView+HighlightedWebCache.m */,
+				C4FEB3814F9E87A29E1EBB359FC225D0 /* UIImageView+WebCache.h */,
+				C58FCF165A7C548DF6BFE3BC31B7397C /* UIImageView+WebCache.m */,
+				04EA491BC2A35496CE5836AB6820557D /* UIView+WebCache.h */,
+				9AF8B1359DF9D8043B249280CD580B55 /* UIView+WebCache.m */,
+				CFA51EA58788DFD1FDF466BE345A079F /* UIView+WebCacheOperation.h */,
+				E6E6B653FD120DAA2FE20A46C228D85F /* UIView+WebCacheOperation.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		BE2080D43081DDD259B8935045364853 /* Pods-RedditTests */ = {
+			isa = PBXGroup;
+			children = (
+				71F58D6DE154B47A157C4BD9C100CF9F /* Info.plist */,
+				5C9C956B9E73351D611F314E1281D0A3 /* Pods-RedditTests.modulemap */,
+				A68F1413DECADB20312DD56F1F717DF0 /* Pods-RedditTests-acknowledgements.markdown */,
+				C34E311DE5400DA942F6BE4151BE83AE /* Pods-RedditTests-acknowledgements.plist */,
+				27F9B0B2701A1D93BCA1D9DE45982C44 /* Pods-RedditTests-dummy.m */,
+				822A32539A7A7226DFABE4D2C70FCA70 /* Pods-RedditTests-frameworks.sh */,
+				1A319C79C2EDBE8322C95EB0EB13092A /* Pods-RedditTests-resources.sh */,
+				B37285C7FE8DC7370BD753574E1061E2 /* Pods-RedditTests-umbrella.h */,
+				5D8FABAAD4062A8E12C30FB10CCDA11C /* Pods-RedditTests.debug.xcconfig */,
+				4C065624D50BFC8F86B0248462A230C9 /* Pods-RedditTests.release.xcconfig */,
+			);
+			name = "Pods-RedditTests";
+			path = "Target Support Files/Pods-RedditTests";
+			sourceTree = "<group>";
+		};
+		FB3E988AE2C3C143A5A186B3B8B77DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				26226411403781E655A975E34716BC24 /* Pods_Reddit.framework */,
+				02833188C8D390E54E36A7C2C755A86F /* Pods_RedditTests.framework */,
+				637FA859F4F34CD8F5AD913C399EB976 /* Pods_RedditUITests.framework */,
+				26954044DC5F00F7AD7D058C24C70F9F /* SDWebImage.framework */,
+				70EBCB2EF9B7A320BEB81725C8B36486 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		201CD5E8FA5B37515848F8FA117F9B65 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E96A8F1C9E7FED299D5802421A3F19B /* NSData+ImageContentType.h in Headers */,
+				64910B6B0D1C67227CCEB6D9043F8146 /* NSImage+WebCache.h in Headers */,
+				2B4017FF06CCD704BB1FC60C896156D3 /* SDImageCache.h in Headers */,
+				5E1D79DA5AAFCE859A3ED14EC0CD9472 /* SDImageCacheConfig.h in Headers */,
+				18A80738E98CC34DA57EB0422F0180E0 /* SDWebImage-umbrella.h in Headers */,
+				E25A95C58DC5379C79ADBE6620CC1B51 /* SDWebImageCoder.h in Headers */,
+				FA374BEB7F37A33C241B46440922B546 /* SDWebImageCoderHelper.h in Headers */,
+				F6ED49212E9BE3A8E870CBD8B0CF90BA /* SDWebImageCodersManager.h in Headers */,
+				75834C5140222F7AD6E56E3F0157CC54 /* SDWebImageCompat.h in Headers */,
+				379BBF824D76CF5DE81FAD0D3EFADB23 /* SDWebImageDownloader.h in Headers */,
+				489C5C0951A49FBC3EBF2989EA399971 /* SDWebImageDownloaderOperation.h in Headers */,
+				08E1ED3E1015E6DB40735E3E5F748C1A /* SDWebImageFrame.h in Headers */,
+				F84ECA8EF002FD82FFD3C72A6C7EC7A2 /* SDWebImageGIFCoder.h in Headers */,
+				C71A4F09A1E7677D8EB828348A0A4C3D /* SDWebImageImageIOCoder.h in Headers */,
+				D6D3D5E6ACC54EAD58DB7E23965AE268 /* SDWebImageManager.h in Headers */,
+				4302B1A806EC44200697716C7F9EB497 /* SDWebImageOperation.h in Headers */,
+				6BCCF970C54EFF789453C91DC7C3B1D3 /* SDWebImagePrefetcher.h in Headers */,
+				73EBC6E4BC745BC93429967214CFC92B /* UIButton+WebCache.h in Headers */,
+				5A19E8D857830399D59FA3FC166B57B8 /* UIImage+ForceDecode.h in Headers */,
+				A981AB55A20662B4F0F0CD3613BE7849 /* UIImage+GIF.h in Headers */,
+				3DCCB8758C364B7D70C8B42555C17BEF /* UIImage+MultiFormat.h in Headers */,
+				4588E803391C0D0215E72F3E724F3F78 /* UIImageView+HighlightedWebCache.h in Headers */,
+				AE22347AC072CD53A7A2FD1AFFD47022 /* UIImageView+WebCache.h in Headers */,
+				F59E0E3D1B0DCBA6DD4E34D3076AF0F8 /* UIView+WebCache.h in Headers */,
+				D71E62A99DE3AE8E70B6D86DE44751AB /* UIView+WebCacheOperation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C35F9FF0699D99EAAE28B92D4F44DF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61455D897EC807FDDE23ECEE52659CB /* Pods-RedditUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4DE9EE866580455071298E99833C535 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A9C897EE0C5A972E89E23084E9076AB /* Pods-Reddit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC7CB2C632215473EC1EE461871089E5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BA5FB50FF4F387857076712CCD3EDE3 /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEE7E571DB9FDC83F722C89F88BE9A6E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE768A8C63BD740A1710C1E84E02A68 /* Pods-RedditTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0303202173EFA74E23DBF826E7DAD78D /* SDWebImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAA515524141D5F9AF2EEFE9F35210AB /* Build configuration list for PBXNativeTarget "SDWebImage" */;
+			buildPhases = (
+				EAF1C7AAC75DA060AA63373426746AD4 /* Sources */,
+				8A83F7D9C4FC836793EE02D93BBC8DB8 /* Frameworks */,
+				201CD5E8FA5B37515848F8FA117F9B65 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SDWebImage;
+			productName = SDWebImage;
+			productReference = 26954044DC5F00F7AD7D058C24C70F9F /* SDWebImage.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0BF79C1C5236C9B4BEA68938F4CB9875 /* Pods-RedditTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0B289E4EFF226E48AFBCF31703E0B42 /* Build configuration list for PBXNativeTarget "Pods-RedditTests" */;
+			buildPhases = (
+				5F8A3F060DC64071FCDFCD36770F43C5 /* Sources */,
+				D929CFC866C6D98D085951335B91920C /* Frameworks */,
+				FEE7E571DB9FDC83F722C89F88BE9A6E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RedditTests";
+			productName = "Pods-RedditTests";
+			productReference = 02833188C8D390E54E36A7C2C755A86F /* Pods_RedditTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		119BEE602EB52FDADCCD0D415B44EB3D /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4F02A591A003D48CE60E5CAC8FBC31E1 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				FA8E057541F4EDF36A976225A630B7FE /* Sources */,
+				0599C7FAED43039F49996A0B13B0ECFD /* Frameworks */,
+				FC7CB2C632215473EC1EE461871089E5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = 70EBCB2EF9B7A320BEB81725C8B36486 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DC4162E62E4D9AAD4F928B8DC482D1A /* Pods-RedditUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA42F4D07F184E5CE2CDD75D425F05C8 /* Build configuration list for PBXNativeTarget "Pods-RedditUITests" */;
+			buildPhases = (
+				C760CC9EEE5085F01F0F14F4AC25A974 /* Sources */,
+				474E68A93F51DD868F56A2A2AACBBD65 /* Frameworks */,
+				3C35F9FF0699D99EAAE28B92D4F44DF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RedditUITests";
+			productName = "Pods-RedditUITests";
+			productReference = 637FA859F4F34CD8F5AD913C399EB976 /* Pods_RedditUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7858F84DF5AC0B3C8C0AB183B9E93C01 /* Pods-Reddit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39FE62CA88C3C9E248C7FFC1C7654EC1 /* Build configuration list for PBXNativeTarget "Pods-Reddit" */;
+			buildPhases = (
+				EC0B7666C77B1244FA26F817F4221D30 /* Sources */,
+				D751AE2255B6B6026ECBD3B7B8436448 /* Frameworks */,
+				F4DE9EE866580455071298E99833C535 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76DA29B23CB2E14A03E73058DB4CDB62 /* PBXTargetDependency */,
+				7DC5EB3B99567F4B47F0A1997280577F /* PBXTargetDependency */,
+			);
+			name = "Pods-Reddit";
+			productName = "Pods-Reddit";
+			productReference = 26226411403781E655A975E34716BC24 /* Pods_Reddit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = FB3E988AE2C3C143A5A186B3B8B77DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7858F84DF5AC0B3C8C0AB183B9E93C01 /* Pods-Reddit */,
+				0BF79C1C5236C9B4BEA68938F4CB9875 /* Pods-RedditTests */,
+				6DC4162E62E4D9AAD4F928B8DC482D1A /* Pods-RedditUITests */,
+				0303202173EFA74E23DBF826E7DAD78D /* SDWebImage */,
+				119BEE602EB52FDADCCD0D415B44EB3D /* SwiftyJSON */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F8A3F060DC64071FCDFCD36770F43C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFD8DA21E598CEEA911AE163FAF0D3A6 /* Pods-RedditTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C760CC9EEE5085F01F0F14F4AC25A974 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6ECB1E459593F8F6AD5BF25D6B949B9C /* Pods-RedditUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAF1C7AAC75DA060AA63373426746AD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				908FDF89B463AB744C093A39BABDEBAD /* NSData+ImageContentType.m in Sources */,
+				385B783A241FF6ACC7B93D2908345B58 /* NSImage+WebCache.m in Sources */,
+				B53FACDA63A6E5EB05A17BDFF09EDC74 /* SDImageCache.m in Sources */,
+				E2C703FCB1E7FBA757B349F1D1C60E56 /* SDImageCacheConfig.m in Sources */,
+				CDCF8BA00EB1B8E39A55CBF324DBD97F /* SDWebImage-dummy.m in Sources */,
+				6BA2FEB860EBE929064C7A8ABB00724F /* SDWebImageCoder.m in Sources */,
+				052B15FB5BFAF3D90EC118F146C4A2DD /* SDWebImageCoderHelper.m in Sources */,
+				DD7CF3668A810110059B07E5FD968184 /* SDWebImageCodersManager.m in Sources */,
+				088EF3D33C17D43111AD54565356403A /* SDWebImageCompat.m in Sources */,
+				070474356462B5D62F137EA24A908141 /* SDWebImageDownloader.m in Sources */,
+				F79F414F7120AB413FF0A3606D6424DF /* SDWebImageDownloaderOperation.m in Sources */,
+				75489E3D7ED3733EF3691866445ABE54 /* SDWebImageFrame.m in Sources */,
+				46695E52C0C89E057D54B1FBFF873F02 /* SDWebImageGIFCoder.m in Sources */,
+				B675FEF19D3D05993BF13C5F24CA82C4 /* SDWebImageImageIOCoder.m in Sources */,
+				33CC5B8728CD9952459FF9CF472A961C /* SDWebImageManager.m in Sources */,
+				614A331E9E436AAF671E7183DBC24AA2 /* SDWebImagePrefetcher.m in Sources */,
+				9E0874521D1624AF6ECA77D2205A3D89 /* UIButton+WebCache.m in Sources */,
+				8FA801BE318336899B3410C2023CB96F /* UIImage+ForceDecode.m in Sources */,
+				536B6B06D1C74C21BEDE73EEF715687B /* UIImage+GIF.m in Sources */,
+				83CA2502310C4C863192EEBF246CD7B0 /* UIImage+MultiFormat.m in Sources */,
+				6663F2632085624DEAED755AFE409FB7 /* UIImageView+HighlightedWebCache.m in Sources */,
+				906D09354A6950C460CB832BF0C1D4EE /* UIImageView+WebCache.m in Sources */,
+				927E6D75DD74F4C2EF687425C42E030A /* UIView+WebCache.m in Sources */,
+				F2EB04E3D7E17024DE471837DCFA70A4 /* UIView+WebCacheOperation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0B7666C77B1244FA26F817F4221D30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E214D0A2F8AAABD23B4E1EC36B291A1 /* Pods-Reddit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA8E057541F4EDF36A976225A630B7FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06BC4C76B064C65421B324F92EB492C9 /* SwiftyJSON-dummy.m in Sources */,
+				7449965EB0117E1B7044DA9D95129F1B /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76DA29B23CB2E14A03E73058DB4CDB62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SDWebImage;
+			target = 0303202173EFA74E23DBF826E7DAD78D /* SDWebImage */;
+			targetProxy = 9290919F2BA2E38B5E1300D9B88F239E /* PBXContainerItemProxy */;
+		};
+		7DC5EB3B99567F4B47F0A1997280577F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 119BEE602EB52FDADCCD0D415B44EB3D /* SwiftyJSON */;
+			targetProxy = 78ABE76CBE2BDA0E4E5C6119C0E44CEE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		370BCC8748A5DAA1CCA26CF5878E0392 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1586CD001293E1AA095425BC0C1732F /* Pods-RedditUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RedditUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedditUITests/Pods-RedditUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RedditUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		41D0D45C2BAABD22EC4E6068055992F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD3722FEAC462683D8F169C2E0742FAD /* Pods-Reddit.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Reddit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Reddit/Pods-Reddit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Reddit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DAF6117667B2F0E722D41D229FF5477 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D8FABAAD4062A8E12C30FB10CCDA11C /* Pods-RedditTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RedditTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedditTests/Pods-RedditTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RedditTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		73F77A14C610A4187D670CF13653C6F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A35E604BC17121A4A7CD3F1C4C484E /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		86B9F6E445AB16110DE11B52FE6AD4B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C065624D50BFC8F86B0248462A230C9 /* Pods-RedditTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RedditTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedditTests/Pods-RedditTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RedditTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B709AC61FA3B9783E256E15E316849F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D9A300EB265407A90A7B1847C71E562 /* Pods-Reddit.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-Reddit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Reddit/Pods-Reddit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Reddit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9A48A32C7FEBA6E23B574E1432563C31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C68C77B1BE7B85429BAEB61B564C30A /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B5979FA96D7A8FA5DE65D56954FE7555 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 069E1B3C49A9AA8036B6A3781B3B2FF8 /* Pods-RedditUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-RedditUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RedditUITests/Pods-RedditUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_RedditUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BAD81FCE75A6503E55C9DE13070F8BB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60A35E604BC17121A4A7CD3F1C4C484E /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C03B8870130C98D1B02B59D003687524 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C0B2189772F7BF4B337B27C358C7860A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C68C77B1BE7B85429BAEB61B564C30A /* SDWebImage.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SDWebImage/SDWebImage-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SDWebImage/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SDWebImage/SDWebImage.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SDWebImage;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BFC9E4A7AAD7A607ACE06D95A401A5A /* Debug */,
+				C03B8870130C98D1B02B59D003687524 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39FE62CA88C3C9E248C7FFC1C7654EC1 /* Build configuration list for PBXNativeTarget "Pods-Reddit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B709AC61FA3B9783E256E15E316849F /* Debug */,
+				41D0D45C2BAABD22EC4E6068055992F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4F02A591A003D48CE60E5CAC8FBC31E1 /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				73F77A14C610A4187D670CF13653C6F1 /* Debug */,
+				BAD81FCE75A6503E55C9DE13070F8BB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0B289E4EFF226E48AFBCF31703E0B42 /* Build configuration list for PBXNativeTarget "Pods-RedditTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6DAF6117667B2F0E722D41D229FF5477 /* Debug */,
+				86B9F6E445AB16110DE11B52FE6AD4B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAA515524141D5F9AF2EEFE9F35210AB /* Build configuration list for PBXNativeTarget "SDWebImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A48A32C7FEBA6E23B574E1432563C31 /* Debug */,
+				C0B2189772F7BF4B337B27C358C7860A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA42F4D07F184E5CE2CDD75D425F05C8 /* Build configuration list for PBXNativeTarget "Pods-RedditUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B5979FA96D7A8FA5DE65D56954FE7555 /* Debug */,
+				370BCC8748A5DAA1CCA26CF5878E0392 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
